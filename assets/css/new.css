@@ -1,0 +1,787 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+/* Start about us pages main area */
+.about_banner_area {
+    background: url('../images/about/aboutus-banner.png') no-repeat scroll 0 0 / cover;
+    padding: 268px 0 252px;
+}
+
+.about_banner_area.contact_banner {
+    background: url('../images/contact/contact_banner.png') no-repeat scroll 0 0 / cover;
+}
+
+.subHeading2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Exo;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+
+/* contactus_message_area */
+.form_content_area {
+    background: #FFBC12;
+    padding: 71px 98px 84px;
+}
+
+.singe_form_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.singe_form_items input {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    padding: 19px 34px 20px 34px;
+    outline: none !important;
+    border: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    flex: 0 0 calc(100% / 2 - 10px);
+}
+
+.singe_form_items input::placeholder {
+    opacity: 1;
+    color: #000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.form_subject textarea {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    border: none;
+    padding: 19px 34px;
+    width: 100%;
+    height: 169px;
+    resize: none;
+    margin-bottom: 36px;
+}
+
+.form_title {
+    margin-bottom: 40px;
+}
+
+.phone_icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 25px;
+}
+
+.mail_icon {
+    width: 27px;
+    height: 21px;
+    margin-right: 21px;
+}
+
+.location_icon {
+    width: 36px;
+    height: 36px;
+    margin-right: 18px;
+}
+
+.contact_info_title h4 {
+    color: #000;
+    font-family: Exo;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 44px;
+}
+
+.contact_location p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.contact_location a {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.single_contact_info {
+    display: flex;
+}
+
+.contact_call_icon {
+    margin-top: 16px;
+    margin-bottom: 49px;
+}
+
+.contact_location span {
+    display: block;
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 257px;
+    width: 100%;
+}
+
+.office_time h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.office_time p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 17px;
+}
+
+.office_time {
+    margin-bottom: 59px;
+    margin-top: 9px;
+}
+
+.follow_us_social h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+.follow_us_social ul li a img {
+    width: 60px;
+    height: 60px;
+}
+
+.follow_us_social ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact_info_content {
+    max-width: 890px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contactus_message_area {
+    position: relative;
+    top: -70px;
+}
+
+.contact_info_area {
+    padding-top: 45px;
+    padding-bottom: 165px;
+}
+
+.left_contact_info {
+    flex: 0 0 50%;
+    border-right: 1px solid #DCDCDC;
+}
+
+.office_location_items h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.office_location_items p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    max-width: 245px;
+}
+
+.office_location_title {
+    margin-bottom: 40px;
+}
+
+.office_location_area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_office_maps {
+    flex: 0 0 50%;
+}
+
+.right_office_content {
+    flex: 0 0 50%;
+    padding: 111px 0 0 140px;
+}
+
+.office_location_items {
+    margin-bottom: 40px;
+}
+
+.office_maps img {
+    width: 100%;
+    height: 945px;
+}
+
+/* accordion css */
+.custom_accordion {
+    text-align: left;
+    transition: 0.4s;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+    padding: 26px 22px 22px 42px;
+    border: 1px solid #000;
+    background: #FFF;
+    outline: none !important;
+    cursor: pointer;
+}
+
+.custom_accordion.active,
+.custom_accordion:hover {
+    background: #FFBC12;
+    border-color: transparent;
+}
+
+.custom_accordion:after {
+    content: '+';
+    color: #000;
+    font-weight: 400;
+    float: right;
+}
+
+.custom_accordion.active:after {
+    content: "-";
+}
+
+.panel {
+    padding: 2px 95px 0px 42px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
+    -webkit-transition: max-height 0.2s ease-in-out;
+    -moz-transition: max-height 0.2s ease-in-out;
+    -ms-transition: max-height 0.2s ease-in-out;
+    -o-transition: max-height 0.2s ease-in-out;
+}
+
+.panel p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* faq main area */
+.faq_main_area {
+    padding-top: 105px;
+    padding-bottom: 160px;
+}
+
+.faq_heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.single_faq_items {
+    margin-bottom: 20px;
+}
+
+.single_faq_items.accordion_child .custom_accordion {
+    border: none;
+    padding-bottom: 0;
+}
+
+.single_faq_items.accordion_child {
+    padding-bottom: 26px;
+    background: #FFBC12;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.faq_content_area {
+    max-width: 915px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+/* service pages css */
+.service_banner {
+    background: url('../images/service_banner.png') no-repeat scroll 0 0 / cover;
+    padding: 248px 0 192px;
+}
+
+.service_banner h2 span {
+    display: block;
+}
+
+/* start tabs content area */
+.service_top_area .tab {
+    border: transparent;
+    background-color: transparent !important;
+    border-right: 1px solid #000;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #000;
+    padding-top: 74px;
+}
+
+/* Style the buttons inside the tab */
+.service_top_area .tab button {
+    display: block;
+    background: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    text-align: left;
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+    padding-left: 30px;
+}
+
+/* Change background color of buttons on hover */
+.service_top_area .tab button:hover {
+    background-color: #FFBC12;
+}
+
+/* Create an active/current "tab button" class */
+.service_top_area .tab button.active {
+    background-color: #FFBC12;
+}
+
+/* Style the tab content */
+.service_top_area .tabcontent {
+    padding: 0px 12px;
+}
+
+.service_top_content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left_service_tabs {
+    flex: 0 0 30%;
+}
+
+.right_service_tabs_content {
+    flex: 0 0 70%;
+    padding-left: 86px;
+    padding-top: 74px;
+}
+
+.service_top_area {
+    background: #FBFBFB;
+    padding: 0px 0 140px;
+}
+
+.truckedload_items ul li img {
+    width: 9px;
+    height: auto;
+}
+
+.truckedload_items {
+    display: flex;
+    padding-top: 15px;
+    gap: 65px;
+    margin-bottom: 50px;
+}
+
+.truckedload_items ul li span {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 41px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.truckload_txt_area p {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 18px;
+}
+
+.truckload_txt_area p span {
+    display: block;
+    margin-top: 30px;
+}
+
+.truckload_txt_area h2 {
+    padding: 25px 0 10px;
+}
+
+.truckload_down_txt {
+    margin-top: 32px;
+}
+
+.truckload_down_txt p {
+    margin-bottom: 25px;
+}
+
+.work_process_heading p {
+    color: #333;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 6px;
+}
+
+/* work process main area */
+.work_process_main_area {
+    padding: 130px 0;
+}
+
+.work_process_heading {
+    text-align: center;
+    max-width: 615px;
+    width: 100%;
+    margin: auto;
+}
+
+.work_process_items>span {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    background: #FFBC12;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -28px;
+    transform: translateX(-50%);
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.work_process_items {
+    border: 1px solid #FFBC12;
+    background: #FFF;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    width: 320px;
+    height: 157px;
+    text-align: center;
+    position: relative;
+}
+
+.work_process_items p {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    width: 100%;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.work_process_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 80px;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.track_location_box {
+    background: #FFBC12;
+    padding: 85px 65px 60px 70px;
+}
+
+.track_location_box h3 {
+    color: #000;
+}
+
+.track_location_main_area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.track_location_left_content {
+    flex: 0 0 40%;
+}
+
+.track_location_box ul li {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.track_location_box ul li::after {
+    content: "";
+    position: absolute;
+    left: 2px;
+    width: 7px;
+    height: 7px;
+    background: #000;
+    border-radius: 50%;
+    top: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.track_location_box h3 {
+    margin-bottom: 10px;
+}
+
+.track_location_box ul {
+    margin-bottom: 45px;
+}
+
+.location_maps {
+    max-width: 340px;
+    width: 100%;
+}
+
+.tracking_truck {
+    padding: 200px 0 231px 133px;
+}
+
+.track_location_right_content {
+    flex: 0 0 60%;
+    background: url('../images/service/trucklocation.png') no-repeat scroll 0 0 / cover;
+}
+
+.tracking_truck h2 {
+    max-width: 726px;
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+/* start packages area css */
+.package_main_area {
+    padding: 128px 0 158px;
+    background: #F6F6F6;
+}
+
+.packages_details_items ul li img {
+    width: 16px;
+    height: 16px;
+    margin-right: 14px;
+}
+
+.packages_top_area h5 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.5px;
+}
+
+.packages_top_area {
+    padding: 28px 48px 0 40px;
+    background: #FDDB2C;
+
+}
+
+.packages_details_items {
+    padding: 27px 26px 64px 33px;
+    background: #FFF;
+    filter: drop-shadow(0px 0px 30px rgba(52, 79, 95, 0.10));
+}
+
+.packages_details_items ul li {
+    color: #333;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.packages_content_area {
+    display: flex;
+    justify-content: space-between;
+    gap: 22px;
+    align-items: flex-end;
+}
+
+.packages_top_area p {
+    color: #424242;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.5px;
+}
+
+.packages_top_area p span {
+    color: #424242;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39.5px;
+}
+
+.packages_top_area h2 {
+    color: #000;
+    font-family: Exo;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 39.5px;
+    padding: 12px 0 32px;
+}
+
+.packages_disable {
+    opacity: 0.2;
+}
+
+.premium_plan .packages_top_area {
+    background: #FFBC12;
+}
+
+.ultimate_plan .packages_top_area {
+    background: #FF9431;
+
+}
+
+.packages_heading {
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+.packages_top_area a {
+    color: #FFBC12;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    background: #000;
+    padding: 0px 28px 0px 29px;
+    display: inline-block;
+}
+
+.packages_btn_area {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -33px;
+    width: 100%;
+    z-index: 1;
+}
+
+.single_packages_items {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end css */
